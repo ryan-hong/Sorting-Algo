@@ -3,19 +3,22 @@ import java.util.*;
 public class Sort{
 
   public static void main(String[] args){
-    int[] unsorted = new int[5];
+    int[] unsorted = new int[8];
     Scanner scan = new Scanner(System.in);
     
     for (int i = 0; i < unsorted.length; i++){
       unsorted[i] = scan.nextInt();
     }
 
-    System.out.print("unsorted array: ");
+    System.out.print("unsorted array: | ");
     for (int i = 0; i < unsorted.length; i++){
       System.out.print(unsorted[i] + " | ");
     }
+
     System.out.println();
     mergeSort(unsorted);
+
+    System.out.print("sorted array: | ");
     for (int i = 0; i < unsorted.length; i++){
       System.out.print(unsorted[i] + " | ");
     }
