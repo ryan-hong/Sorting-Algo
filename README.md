@@ -3,6 +3,6 @@ Repository for sorting project
 
 Through Java, I will first explore the fundamental sorting techniques, mainly focusing on MergeSort, QuickSort, InsertionSort, and HeapSort
 
-To visualize these functions, I will create a GUI in Java using Swing
+Once these fundamental techniques are finished, I will start to transfer them to React in order to create a web app to demonstrate and visualize these techniques
 
-This will eventually be turned into a web app by using React
+
