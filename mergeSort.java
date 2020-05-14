@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Sort{
+public class mergeSort{
 
   public static void main(String[] args){
     Random r = new Random();
@@ -21,11 +21,11 @@ public class Sort{
     System.out.println();
     mergeSort(unsorted);
     System.out.println();
+
     System.out.print("sorted array: | ");
     for (int i = 0; i < unsorted.length; i++){
       System.out.print(unsorted[i] + " | ");
     }
-
   }
   
   /**
